@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+.gallery {
+  margin: 0 auto;
+  max-width: 1128px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+
+}
+
+.image {
+  position: relative;
+}
+
+.gallery-image {
+  max-width: 360px;
+  cursor: pointer;
+}
+
+.gallery-image:hover {
+  transform: scale(1.04);
+}
+
+.modal-image {
+  max-height: 640px;
+}
