@@ -81,7 +81,10 @@ const images = [
           <li><img class="modal-image" src="${event.target.dataset.source}" alt="${event.target.alt}"></li>
       </div>
       });`)
-        modalPicture.show()
+        modalPicture.show();
+        const modalImageOpened = modalPicture.element().querySelector('.modal-image');
+        modalImageOpened.addEventListener("click", () => {
+          modalPicture.close();
+      });
           }
-        
     })

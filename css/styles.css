@@ -39,3 +39,8 @@ img {
 .modal-image {
   max-height: 640px;
 }
+
+.hidden {
+  display: none;
+  cursor: none;
+}
